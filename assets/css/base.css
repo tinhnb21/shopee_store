@@ -5,6 +5,10 @@
   --text-color: #333;
   --primary-color: #EE4D2D;
   --border-color: #dbdbdb;
+
+  --header-height: 120px;
+  --navbar-height: 40px;
+  --header-with-search-height: calc(var(--header-height) - calc(var(--navbar-height)));
 }
 
 * {
@@ -51,6 +55,7 @@ html {
   from {
     transform: scale(var(--growth-from));
   }
+
   to {
     transform: scale(var(--growth-to));
   }
