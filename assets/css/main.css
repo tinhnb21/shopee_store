@@ -192,6 +192,8 @@
 
 .header__navbar-item--has-notify:hover .header__notify {
   display: block;
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .header__notify-link span {
